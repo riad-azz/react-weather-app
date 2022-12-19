@@ -12,6 +12,14 @@ Simple weather app with daily forceast using react and two free public APIs :
 
 ## Instructions
 
+### Installing the packages
+
+* After you clone the repo just run this command in the repo folder
+
+```
+npm install
+```
+
 ### You will have to update the API key accordingly
 
 * For OpenWeather API you can add your api key in _src/api/current-weather.js_
