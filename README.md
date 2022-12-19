@@ -25,7 +25,7 @@ npm install
 * For OpenWeather API you can add your api key in _src/api/current-weather.js_
 
 ```javascript
-export const WEATHER_API_KEY = "YOUR_API_KEY"; <---- here
+export const WEATHER_API_KEY = "YOUR_API_KEY";
 export const WEATHER_API_URL = "https://api.openweathermap.org/data/2.5";
 ```
 
@@ -35,7 +35,7 @@ export const WEATHER_API_URL = "https://api.openweathermap.org/data/2.5";
 export const geoApiOptions = {
  method: 'GET',
  headers: {
-  'X-RapidAPI-Key': 'YOUR_API_KEY', <---- here
+  'X-RapidAPI-Key': 'YOUR_API_KEY',
   'X-RapidAPI-Host': 'wft-geo-db.p.rapidapi.com'
  }
 };
